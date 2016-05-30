@@ -1,0 +1,40 @@
+VormerkKarte.fuegeVormerkerHinzu(Kunde)
+
+_verleihKarten.put(medium, verleihkarte)
+VormerkKarte.entferneVormerker()
+
+
+
+
+
+
+Vormerken 
+
+Vorbedingungen 
+
+Kunde not null
+Medium not null
+
+max 2 vormerker
+Kunde hat nicht bereits das Medium vorgemerkt
+kunde hat dasMedium nicht ausgeliehen 
+
+
+Nachbedingungen
+
+max 3 Vormerker
+Vormerker in der vormerkerliste
+
+
+Ausleihen 
+
+Vorbedingunen 
+
+ausleihen möglich
+
+	Kunde ist erster vormerker, falls es vorgemerkt wurde
+
+
+nachbedingung
+
+falls das medium vorgemerkt wurde, erster vormerker wurde entfernt
